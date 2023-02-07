@@ -1,0 +1,76 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #83b8aa;
+}
+
+.header-container {
+    background-color: #6f95ff;
+    display         : flex;
+    justify-content : center;
+    padding         : 50px;
+}
+
+
+img {
+    width        : 300px;
+    height       : 350px;
+    border-radius: 100%;
+}
+
+.foto {
+    display    : flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.tarjeta-container {
+    margin-top: 190px;
+    background-color: #83b8aa;
+}
+
+.tarjeta {
+    height    : 400px;
+    width     : 50%;
+    display   : flex;
+    margin    : auto;
+    box-sizing: border-box;
+}
+
+.parrafo-container {
+    text-align : center;
+    align-items: center;
+    margin: auto;
+    color: #f8fef4;
+}
+
+.datos{
+    text-align : center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #301c41;
+    border-radius: 5%
+}
+
+button{
+    background: transparent;
+    border: 2px solid #6f95ff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+}
+
+#descripcion{
+    font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+}
